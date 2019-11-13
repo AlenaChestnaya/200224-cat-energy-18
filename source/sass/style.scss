@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+@import "blocks/header.scss";
+@import "blocks/main-nav.scss";
+@import "blocks/button.scss";
+@import "blocks/section-title.scss";
+@import "blocks/cover.scss";
+@import "blocks/goal.scss";
+@import "blocks/icon-list.scss";
+@import "blocks/social.scss";
+@import "blocks/develop.scss";
+@import "blocks/catalog.scss";
+@import "blocks/product.scss";
+@import "blocks/product-details.scss";
+@import "blocks/show-more.scss";
+@import "blocks/footer.scss";
+
+// @font-face {
+//   font-family: 'PF Din Text Cond Pro';
+//   src: url('../fonts/PFDinTextCondPro-Regular.eot');
+//   src: url('../fonts/PFDinTextCondPro-Regular.eot?#iefix') format('embedded-opentype'),
+//       url('../fonts/PFDinTextCondPro-Regular.woff2') format('woff2'),
+//       url('../fonts/PFDinTextCondPro-Regular.woff') format('woff'),
+//       url('../fonts/PFDinTextCondPro-Regular.ttf') format('truetype');
+//   font-weight: normal;
+//   font-style: normal;
+// }
+
+body {
+  background-color: tomato;
+}
