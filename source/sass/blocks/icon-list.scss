@@ -1,7 +1,22 @@
 .icon-list {
   background-color: pink;
 }
-
 .icon-list__item {
   border: 1px solid red;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.icon-list__icon {
+  min-width: 60px;
+  width: 60px;
+  height: 60px;
+  background-color: $green;
+}
+.icon-list__text {
+  padding-left: 20px;
+  font-size: 14px;
+  color: $text-grey;
+  font-family: "Arial", "Open Sans", sans-serif;
+  line-height: 1.29;
 }

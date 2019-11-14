@@ -1,3 +1,18 @@
 .social {
   background-color: rgb(37, 124, 95);
+  display: flex;
+  justify-content: center;
+}
+.social__item {
+  display: block;
+  width: 40px;
+  height: 40px;
+}
+.social li {
+  background-color: rgb(77, 192, 48);
+  margin: 10px 0;
+}
+.social li:not(:last-child) {
+  background-color: rgb(151, 43, 43);
+  margin-right: 30px;
 }

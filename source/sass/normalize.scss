@@ -1,6 +1,12 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 body {
   margin: 0;
   font-family: "Oswald", "Open Sans", sans-serif;
+  min-height: 100vh;
 }
 ul[class],
 ol[class] {
@@ -20,5 +26,5 @@ a {
 img {
   display: block;
   max-width: 100%;
-  outline: 2px solid red;
+  outline: 2px dashed black;
 }
