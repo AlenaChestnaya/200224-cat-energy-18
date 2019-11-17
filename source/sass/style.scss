@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+@import "normalize.scss";
+@import "variables.scss";
+@import "blocks/header.scss";
+@import "blocks/main-nav.scss";
+@import "blocks/button.scss";
+@import "blocks/section-title.scss";
+@import "blocks/cover.scss";
+@import "blocks/goal.scss";
+@import "blocks/goals-container.scss";
+@import "blocks/icon-list.scss";
+@import "blocks/social.scss";
+@import "blocks/develop.scss";
+@import "blocks/catalog.scss";
+@import "blocks/product.scss";
+@import "blocks/product-details.scss";
+@import "blocks/show-more.scss";
+@import "blocks/footer.scss";
+@import "blocks/process.scss";
+@import "blocks/center-wrapper.scss";
+@import "blocks/catalog-block.scss";
+
+@font-face {
+  font-family: 'Oswald';
+  src: url('../fonts/oswaldregular.woff2') format('woff2'),
+      url('../fonts/oswaldregular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Oswald';
+  src: url('../fonts/oswaldmedium.woff2') format('woff2'),
+      url('../fonts/oswaldmedium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+body {
+  color: $black;
+}

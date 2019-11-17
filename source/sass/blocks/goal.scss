@@ -1,0 +1,42 @@
+.goal {
+  display: flex;
+  flex-direction: column;
+  background-color: $bg-grey;
+  //background-color: rgba(113, 187, 230, 0.5);
+  width: 280px;
+  padding: 22px 20px 0 21px;
+  margin-bottom: 20px;
+}
+.goal__top {
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+}
+.goal__icon {
+  width: 50px;
+  height: 50px;
+  background-color: $green;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+.goal__title {
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 400;
+}
+.goal__description {
+  font-size: 14px;
+  font-family: $Arial;
+  line-height: 1.29;
+  color: $text-grey;
+  padding-right: 16px;
+}
+.goal__link {
+  width: 100%;
+  line-height: 57px;
+  margin-top: auto;
+  text-transform: uppercase;
+  font-size: 16px;
+  //background-color: rgb(173, 28, 154);
+  border-top: 1px solid rgba(217, 217, 217, .9);
+}

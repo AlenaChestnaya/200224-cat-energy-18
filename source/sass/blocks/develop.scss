@@ -1,0 +1,19 @@
+.develop {
+  background-color: cornflowerblue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 22px 0;
+}
+.develop__name {
+  font-size: 16px;
+  font-family: $Arial;
+  line-height: 1;
+  color: $text-grey;
+}
+.develop__link {
+  display: block;
+  width: 27px;
+  height: 34px;
+  background-color: darkred;
+}
