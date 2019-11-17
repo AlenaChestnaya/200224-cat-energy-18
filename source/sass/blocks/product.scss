@@ -1,3 +1,23 @@
 .product {
+  border-top: 1px solid #ededed;
+  padding-bottom: 25px;
+
+  .center-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+.product__picture {
+  width: 140px;
+  height: 144px;
   background-color: lightcoral;
+}
+.product__description {
+  width: 50%;
+}
+.product__name {
+  width: 55%;
+  font-size: 16px;
+  text-transform: uppercase;
+  line-height: 1.25;
 }

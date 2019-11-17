@@ -1,3 +1,29 @@
 .show-more {
   background-color: gray;
+  border-top: 1px solid #ededed;
+  border-bottom: 1px solid #ededed;
+}
+.show-more__icon {
+  display: block;
+  width: 31px;
+  height: 31px;
+  background-color: darkgreen;
+  border: 0;
+  margin: 25px auto;
+  padding: 0;
+}
+.show-more__title {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 16px;
+  line-height: 1.25;
+  margin-bottom: 9px;
+}
+.show-more__subtitle {
+  text-align: center;
+  font-size: 12px;
+  font-family: $Arial;
+  line-height: 1.33;
+  color: $text-grey;
+  margin-bottom: 22px;
 }
